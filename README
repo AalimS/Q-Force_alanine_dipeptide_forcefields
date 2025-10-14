@@ -1,3 +1,3 @@
 
 This repository contains the Q-Force generated Force field files for alanine dipeptide. These force fields contain a bonded part that has been fit using the Q-Force protocol. The nonbonded potentials are from AMBER ff14sb. CHARMM36, and OPLS.
-The .xml files can be read using the OpenMM software and used alongside the pdb in the repository to run simulations.
+The .xml files can be read using the OpenMM software and used alongside the pdb in the repository to run simulations. The nonbonded fit directory contains files that are not needed to run simulations but rather the files containing the LJ and Coulomb parameters from the various FFs that Q-Force subtracted from the bonded only fit.
